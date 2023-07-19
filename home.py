@@ -9,7 +9,7 @@ st.set_page_config(layout='wide')
 # function to load the data only once
 @st.cache_data()
 def load_titanic_data():
-    df = pd.read_excel('dataset/titanic3.xls')
+    df = pd.read_excel('Dataset/titanic3.xls')
     return df
 
 st.sidebar.image('images/hero.png')
